@@ -1,7 +1,8 @@
 ---
 publish: true
 ---
-### Weak Induction   #induction
+### Weak Induction
+#induction
 ##### Trigger
 - need to prove over a large range
 - only previous 'statement's' assumption needed
@@ -20,7 +21,8 @@ Let $F_k$ correspond to '$S_k$ is true'.
 - BC can start at any '$n$'.
 - Implication can be established not just for an index jump of 1 (from $k$ to $k+1$), but for any arbitrary jump as needed.
 
-### Strong Induction (known as just *induction*)   #induction
+### Strong Induction (known as just *induction*)
+#induction
 ##### Trigger
 - need to assume $\geq 1$ previous statements
 
@@ -38,7 +40,8 @@ Let $F_k$ correspond to '$S_k$ is true'.
 ##### Example/Reminder
 - better to default to strong induction
 
-### Method of Minimum Counter-Example   #contradiction #induction
+### Method of Minimum Counter-Example
+#contradiction #induction
 ##### Trigger
 - induction-like
 - unsure of exactly WHICH previous statements to use to prove current statement
@@ -58,7 +61,8 @@ where $S_n$ is some mathematical statement.
 - Domino Principle
 - Basically, you assume that $S_0, \dots S_m$ does not imply $S_{m+1}$. However from this assumption, you can show that one of $S_0, \dots S_{m-1}$ is not true to reach the desired contradiction.
 
-### Invariant Induction   #induction
+### Invariant Induction   
+#induction
 ##### Trigger
 - Recognize a *world state*, that varies with an 'inductable' parameter
 
@@ -74,7 +78,8 @@ where $S_n$ is some mathematical statement.
 - Normal Induction variants apply to recipe above (strong, BC, etc.)
 - Recitation: Chips in a Circle
 
-### Structural Induction   #induction
+### Structural Induction
+#induction
 ##### Trigger
 - recursively defined objects
 - induct on [[00-Theorems and Important Definitions#^b9d9d2|derivation complexity]]

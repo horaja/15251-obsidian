@@ -1,7 +1,8 @@
 ---
 publish: true
 ---
-### Proof by Construction of an Injective Encoding Scheme   #encodingscheme #injectivity
+### Proof by Construction of an Injective Encoding Scheme 
+#encodingscheme #injectivity
 ##### Trigger
 - To prove a **set is encodable**.
 
@@ -17,3 +18,30 @@ publish: true
 ##### Common Mistakes
 
 ##### Example/Reminder
+
+### Proof a Recursively Defined Language satisfies a property.
+#tag1 #tag2
+##### Trigger
+- Let there be a recursively/inductively defined language.
+- Need to prove that all elements in the language satisfy some property.
+
+##### Goal shape
+Given a recursively defined language $L$, show that L consists of all strings that satisfy some property $P$.
+
+##### Recipe
+- Proof by **Double Containment**. Let $L$, $K$.
+	- First, define some mathematical abstraction of the property that all elements in set $K$ satisfy.
+		- e.g. *open/close/difference metrics* from Recitation 1.
+	- To show $L \subseteq K$, use structural induction.
+		- Case on **the last applied rule**. 
+		- Show that, by assuming the string was in $K$ before applying the last rule, it is still in $K$ after application.
+	- To show $K \subseteq L$, use strong induction on some property of the string.
+		- e.g. *the length of the string* - Recitation 1
+		- Then, case on some scenario where recursive rule $i$ applies, otherwise recursive rule $j$ applies. 
+
+##### Common Mistakes
+- Ensuring casing covers all possibilities.
+- Follow rules of structural induction.
+
+##### Example/Reminder
+- Recitation 1
