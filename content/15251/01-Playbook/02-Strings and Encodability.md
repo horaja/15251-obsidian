@@ -14,13 +14,10 @@ publish: true
 ##### Recipe
 1. Define an alphabet $\Sigma$
 	1. Usually binary, with modifications (e.g. boundary delimiter '#')
-2. Define an encoding scheme $\text{Enc : }A \rightarrow \Sigma$ by, for every *(or an arbitrary)* element of $A$, define an encoding.
-##### Common Mistakes
-
-##### Example/Reminder
+2. Define an [[00-Theorems and Important Definitions#^77ac50|encoding scheme]] $\text{Enc : }A \rightarrow \Sigma$ by, for every *(or an arbitrary)* element of $A$, define an encoding.
 
 ### Proof a Recursively Defined Language satisfies a property.
-#tag1 #tag2
+#induction #languages
 ##### Trigger
 - Let there be a recursively/inductively defined language.
 - Need to prove that all elements in the language satisfy some property.

@@ -17,5 +17,21 @@ publish: true
 - For any string $w$, $(w^R)^R = w$.
 - For any strings $u$, $v$, $(uv)^R = v^Ru^R$
 
-2.3 - **Encoding**: Let $A$ be a set and let $\Sigma$ be an alphabet. An ***encoding scheme*** for $A$ using $\Sigma$ is an **injective** function(**uniqueness** + **totality**) $\text{Enc : }A\rightarrow \Sigma^*$.
+2.3 - **Encoding**: Let $A$ be a set and let $\Sigma$ be an alphabet. An ***encoding scheme*** for $A$ using $\Sigma$ is an **injective** function(**uniqueness** + **totality**) $\text{Enc : }A\rightarrow \Sigma^*$. ^77ac50
+
+### 3. Deterministic Finite Automata
+
+3.1 - A **Deterministic Finite Automaton (DFA)** $M$ is a 5-tuple $$M = (Q, \Sigma, \delta, q_0, F)$$
+where,
+- $Q$ is the non-empty finite set of states
+- $\Sigma$ is the non-empty finite set representing the alphabet
+- $\delta : Q \times \Sigma \rightarrow Q$ is the transition function
+- $q_0 \in Q$ is the start state
+- $F \subseteq Q$ is the set of accepting states.
+
+3.2 - Given two DFAs, **Isomorphism** implies **Equivalence**.
+
+3.3 - Let $L$ be a **finite language**. Then there exists a DFA **solving** $L$.
+
+3.4 - Although there exists a **unique** regular language that a DFA $M$ solves, there may exist **many** DFAs that solve a particular regular language.
 
