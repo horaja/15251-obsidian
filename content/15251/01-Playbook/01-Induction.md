@@ -1,6 +1,7 @@
 ---
 publish: true
 ---
+---
 ### Weak Induction
 #induction
 ##### Trigger

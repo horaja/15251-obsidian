@@ -1,6 +1,7 @@
 ---
 publish: true
 ---
+---
 ### Proof by Construction of an Injective Encoding Scheme 
 #encodingscheme #injectivity
 ##### Trigger
@@ -15,6 +16,7 @@ publish: true
 1. Define an alphabet $\Sigma$
 	1. Usually binary, with modifications (e.g. boundary delimiter '#')
 2. Define an [[00-Theorems and Important Definitions#^77ac50|encoding scheme]] $\text{Enc : }A \rightarrow \Sigma$ by, for every *(or an arbitrary)* element of $A$, define an encoding.
+
 ---
 ### Proof a Recursively Defined Language satisfies a property.
 #induction #languages

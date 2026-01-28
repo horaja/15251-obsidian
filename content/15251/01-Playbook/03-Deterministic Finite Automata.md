@@ -1,6 +1,7 @@
 ---
 publish: true
 ---
+---
 ### Designing a DFA
 #construction #DFA #regular
 ##### Trigger
