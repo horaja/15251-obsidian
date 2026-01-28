@@ -1,11 +1,11 @@
 ---
 publish: true
 ---
-*The purpose of this document is to compile all necessary theorems and complex definitions relevant for proof-writing.*
 ### 1. Induction
 
 1.1 - **Derivation Complexity**: The derivation complexity of a recursively defined object is the *minimum number of applications of the recursive rule* needed to create the object.
 
+---
 ### 2. Strings and Encodings
 
 2.1 - **$\Sigma^*$ is Countably Infinite**
@@ -19,6 +19,7 @@ publish: true
 
 2.3 - **Encoding**: Let $A$ be a set and let $\Sigma$ be an alphabet. An ***encoding scheme*** for $A$ using $\Sigma$ is an **injective** function(**uniqueness** + **totality**) $\text{Enc : }A\rightarrow \Sigma^*$. ^77ac50
 
+---
 ### 3. Deterministic Finite Automata
 
 3.1 - A **Deterministic Finite Automaton (DFA)** $M$ is a 5-tuple $$M = (Q, \Sigma, \delta, q_0, F)$$

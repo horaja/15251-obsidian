@@ -20,7 +20,7 @@ Let $F_k$ correspond to '$S_k$ is true'.
 ##### Example/Reminder
 - BC can start at any '$n$'.
 - Implication can be established not just for an index jump of 1 (from $k$ to $k+1$), but for any arbitrary jump as needed.
-
+---
 ### Strong Induction (known as just *induction*)
 #induction
 ##### Trigger
@@ -39,7 +39,7 @@ Let $F_k$ correspond to '$S_k$ is true'.
 
 ##### Example/Reminder
 - better to default to strong induction
-
+---
 ### Method of Minimum Counter-Example
 #contradiction #induction
 ##### Trigger
@@ -60,7 +60,7 @@ where $S_n$ is some mathematical statement.
 ##### Example/Reminder
 - Domino Principle
 - Basically, you assume that $S_0, \dots S_m$ does not imply $S_{m+1}$. However from this assumption, you can show that one of $S_0, \dots S_{m-1}$ is not true to reach the desired contradiction.
-
+---
 ### Invariant Induction   
 #induction
 ##### Trigger
@@ -77,7 +77,7 @@ where $S_n$ is some mathematical statement.
 ##### Example/Reminder
 - Normal Induction variants apply to recipe above (strong, BC, etc.)
 - Recitation: Chips in a Circle
-
+---
 ### Structural Induction
 #induction
 ##### Trigger
