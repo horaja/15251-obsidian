@@ -2,7 +2,7 @@
 publish: true
 ---
 ### Designing a DFA
-#tag1 #tag2
+#construction #DFA #regular
 ##### Trigger
 - "Prove a Language is Regular" - by definition of a **regular language**.
 
@@ -25,7 +25,7 @@ Define a DFA as $M = (Q, \Sigma, \delta, q_0, F)$.
 ##### Example/Reminder
 - To prove a language is regular, prove *complement* of language regular.
 - Recitation 2, Section 3.
-
+---
 ### Proof of Non-Regular Language
 #non-regular #DFA #contradiction
 ##### Trigger
@@ -45,7 +45,7 @@ This will be a proof by contradiction.
 
 ##### Example/Reminder
 - Text Exercise on proving *Powers of 2 is not DFA-solvable*.
-
+---
 ### Proving $\text{SC}_{\text{DFA}}(L)$ - TODO
 #lower-bound #DFAfoolingSet
 ##### Trigger
@@ -57,7 +57,7 @@ This will be a proof by contradiction.
 ##### Common Mistakes
 
 ##### Example/Reminder
-
+---
 ### Proof for Closure of Language
 #DFA #closure #regular
 ##### Trigger
