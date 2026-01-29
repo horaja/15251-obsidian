@@ -1,7 +1,6 @@
 ---
 publish: true
 ---
----
 ### Proof by Construction of an Injective Encoding Scheme 
 #encodingscheme #injectivity
 ##### Trigger

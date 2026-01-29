@@ -1,11 +1,12 @@
 ---
 publish: true
 ---
----
 ### Designing a DFA
 #construction #DFA #regular
 ##### Trigger
 - "Prove a Language is Regular" - by definition of a **regular language**.
+- Mostly, any statement covering a **lower bound** is regular.
+	- See *homework 2* for exceptions.
 
 ##### Goal shape
 Define a DFA as $M = (Q, \Sigma, \delta, q_0, F)$.
@@ -31,6 +32,9 @@ Define a DFA as $M = (Q, \Sigma, \delta, q_0, F)$.
 #non-regular #DFA #contradiction
 ##### Trigger
 - Given some language, show that it is **non-regular**, i.e. unsolvable by a DFA
+- When is it regular?
+	- Usually, any constraint on the language that must be continuously checked by the DFA forever.
+		- e.g. 'at most'
 
 ##### Goal shape
 Show that an arbitrary (any) DFA cannot solve this language.
@@ -83,6 +87,8 @@ This will be a proof by contradiction.
 3. Formally construct the **DFA**.
 
 ##### Common Mistakes
+- Ensure it **type-checks**.
+- Keep the intuition explanation **short**.
 
 ##### Example/Reminder
 - Proof of closure of regular languages over Union/Concatenation/Star from text.
