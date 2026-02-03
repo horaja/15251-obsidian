@@ -51,18 +51,6 @@ This will be a proof by contradiction.
 ##### Example/Reminder
 - Text Exercise on proving *Powers of 2 is not DFA-solvable*.
 ---
-### Proving $\text{SC}_{\text{DFA}}(L)$ - TODO
-#lower-bound #DFAfoolingSet
-##### Trigger
-
-##### Goal shape
-
-##### Recipe
-
-##### Common Mistakes
-
-##### Example/Reminder
----
 ### Proof for Closure of Language
 #DFA #closure #regular
 ##### Trigger
