@@ -1,0 +1,1 @@
+note: runtime of GS is $O(|X|*|Y|)$.
