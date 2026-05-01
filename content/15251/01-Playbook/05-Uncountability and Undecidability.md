@@ -8,7 +8,7 @@ Show a set is countable.
 To show a set $S$ is countable, define a:
 1. surjection $f : \mathbb{N} \rightarrow S$, or
 2. injection $f : S \rightarrow \mathbb{N}$
-Concretely, list every element of $S$ with the guarantee that every element appears somewhere in the list (eventually, finite distance after the start).
+Concretely, list every element of $S$ with the guarantee that every element appears somewhere in the list (eventually, finite distance after the start) $\rightarrow$ find some kind of enumeration.
 ##### Recipe
 *Key Idea*: A countable union of finite sets is countable.
 Partition sets into an infinite sequence of finite buckets,

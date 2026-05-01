@@ -1,15 +1,12 @@
 ---
-publish: false
+publish: true
 ---
 ### Proof of Verifiability
-#turingmachine #verifiability
 ##### Trigger
 - Show a language/decision problem is **verifiable**.
-
 ##### Goal shape
 - Present a **Verifier** $V$ (TM) taking in two inputs $x$ and $v$.
 - Argue $V$ is correct.
-
 ##### Recipe
 1. Define/demand a proof string $u$
 2. Define a Verifier TM
@@ -20,23 +17,21 @@ publish: false
 	2. Soundness: $\exists u, V (x,u) \text{ accepts} \implies x \in L$
 	3. $V$ is Decidable
 		1. *Usually straightforward*.
-
 ##### Common Mistakes
-
 ##### Example/Reminder
 - See Proposition 6 for verifiability of $\text{SAT}_{\text{TM}}$, many times will require a *hidden proof string*, like **there exists some number $k$ such that $M(x)$ halts.**
 
 ---
-### [TODO] Proof of Impossibility via Mapping Reductions
-#tag1 #tag2
+### Proof of Impossibility via Mapping Reductions
 ##### Trigger
-- 
-
+Want to show $L$ is *NOT* in some 'computability' class (i.e. semi-decidability, decidability).
 ##### Goal shape
-
+Show $L_\text{HARD} \le_\text{m} L$, i.e. produce a *total computable function* $f : \Sigma^* \rightarrow \Sigma^*$ such that $x \in L_{\text{HARD}} \iff f(x) \in L$.
 ##### Recipe
-
+1. Pick $L_{\text{HARD}}$
+	1. $\text{HALTS}_{\text{TM}}$ for proving undecidability
+	2. $\text{NSA}_{\text{TM}}$ for proving semi-undecidability
+2. Define $f$ by constructing a helper TM $M'$
 ##### Common Mistakes
-
 ##### Example/Reminder
 - Exercise 23
