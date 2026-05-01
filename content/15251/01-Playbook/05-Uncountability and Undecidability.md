@@ -1,7 +1,7 @@
 ---
 publish: true
 ---
-### [TODO] Listing Heuristic
+### Listing Heuristic
 ##### Trigger
 Show a set is countable.
 ##### Goal shape
