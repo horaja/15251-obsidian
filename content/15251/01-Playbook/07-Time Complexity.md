@@ -3,7 +3,6 @@ publish: false
 ---
 ---
 ### Proof of Intrinsic Complexity of Language $L$
-#tag1 #tag2
 ##### Trigger
 
 ##### Goal shape

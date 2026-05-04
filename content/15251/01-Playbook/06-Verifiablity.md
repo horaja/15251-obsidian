@@ -31,7 +31,8 @@ Show $L_\text{HARD} \le_\text{m} L$, i.e. produce a *total computable function* 
 1. Pick $L_{\text{HARD}}$
 	1. $\text{HALTS}_{\text{TM}}$ for proving undecidability
 	2. $\text{NSA}_{\text{TM}}$ for proving semi-undecidability
-2. Define $f$ by constructing a helper TM $M'$
+2. Define $f$ by constructing a helper TM $M'$ to shape the output (should be input/instance of $L$)
+	1. Bake in inputs of $\text{HARD}$ language, and case on accept/reject.
 ##### Common Mistakes
 ##### Example/Reminder
 - Exercise 23

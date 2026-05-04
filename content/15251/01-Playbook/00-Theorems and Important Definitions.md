@@ -193,12 +193,20 @@ $F$ typically written as an $\text{AND}$ of clauses, where each clause is an $\t
 ---
 ### 12. Polynomial-Time Reductions
 
-12.1 - If L is $\mathcal{C}$-complete, then $L \in \mathbf{P} \iff \mathcal{C} = \mathbf{P}$.
+12.1 - L is $\mathcal{C}$-complete $\iff$ $L \in \mathcal{C} \wedge L$ is $\mathcal{C}$-Hard
+12.2 - If L is $\mathcal{C}$-complete, then $L \in \mathbf{P} \iff \mathcal{C} = \mathbf{P}$.
 
 [TODO] - REVIEW ALL REDUCTIONS AND NOTE KEY TECHNIQUES
 
 ---
 ### 13. Non-Deterministic Polynomial Time
+
+13.1 - Many languages in **NP** have the template: "Given an input X does there exist Y"?
+- The "there exists" quantifier usually aligns with the proof string in Verifiers.
+
+13.2 - A poly-time transformation $f$ for a Karp Reduction $A \le_m^p B$ does *not need* to cover all of $B$, only all of $A$.
+
+13.3 - For a complex reduction involving Boolean Circuits, always check to ensure you mention the **tautological case**!
 
 ---
 ### 14. Probability Theory Basics

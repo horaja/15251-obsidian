@@ -3,7 +3,6 @@ publish: false
 ---
 ---
 ### Proof of Property of Graph via Handshake Lemma and Degree Counting
-#tag1 #tag2
 ##### Trigger
 
 ##### Goal shape
@@ -27,7 +26,6 @@ For any WTP statement that isn't easily algebraically written, try AFSOC, and th
 
 ---
 ### Proof of Property of Graphs via Induction
-#tag1 #tag2
 ##### Trigger
 
 ##### Goal shape
@@ -56,7 +54,6 @@ Suppose we want to prove that all graphs with property $A$ must also have proper
 
 ---
 ### Proof of Property of Graph via Removing All Edges and adding them back in one by one.
-#tag1 #tag2
 ##### Trigger
 
 ##### Goal shape
